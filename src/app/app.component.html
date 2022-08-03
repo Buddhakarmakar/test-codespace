@@ -1,0 +1,350 @@
+<div class="h-screen scroll-px-4">
+  <div class="navbar bg-base-200 sticky top-0">
+    <div class="navbar-start">
+      <div class="dropdown md:hidden">
+        <label class="btn btn-circle swap swap-rotate" tabindex="0">
+          <!-- this hidden checkbox controls the state -->
+          <input type="checkbox" />
+
+          <!-- hamburger icon -->
+          <svg
+            class="swap-off fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+
+          <!-- close icon -->
+          <svg
+            class="swap-on fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 512 512"
+          >
+            <polygon
+              points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"
+            />
+          </svg>
+        </label>
+        <ul
+          tabindex="0"
+          class="menu menu-compact dropdown-content p-2 shadow bg-base-200 rounded-box w-screen -left-2"
+        >
+          <li><a>Homepage</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+        </ul>
+      </div>
+
+      <div class="md:block hidden">
+        <a class="btn btn-ghost normal-case border-b border-red-800">Home</a>
+        <a class="btn btn-ghost normal-case text-sm">About</a>
+        <a class="btn btn-ghost normal-case">Contact</a>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
+      </button>
+      <button class="btn btn-ghost btn-circle">
+        <div class="indicator">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+            />
+          </svg>
+          <span class="badge badge-xs badge-primary indicator-item"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <div class="container md:w-2xl mx-auto px-2 text-justify">
+    <div class="flex mt-8 h-full justify-between space-x-4">
+      <div class="flex-1">
+        <div>
+          <div class="text-orange-700 tracking-widest font-serif text-jutify">
+            <span class="text-3xl text-red-400 md:text-6xl">
+              Hi I'm Buddhadeb
+            </span>
+            <br />
+            <span class="text-4xl md:text-3xl border-r w-full" #typeWriter>
+              A Programmer
+            </span>
+          </div>
+          <div class="leading-8 tracking-wider w-full text-lg text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+            suscipit qui et ex voluptatum autem corrupti ullam quas labore,
+            mollitia rem! Suscipit, quia accusamus ex placeat adipisci minima
+            mollitia aliquam.
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <button class="btn btn-outline btn-warning">Learn More</button>
+          <button class="btn btn-outline btn-primary">Hire Me</button>
+        </div>
+      </div>
+      <div class="hidden md:flex-1 md:block h-full w-full">
+        <!-- <img src="./assets/images/new_buddha.jpg" alt=""
+            class=" object-cover h-5/12 w-screen" 
+          > -->
+        <div class="bg-slate-800 h-full w-full p-4">
+          <img
+            src="./assets/images/new_buddha.jpg"
+            alt=""
+            class="object-cover w-full max-h-96 h-full"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="w-2xl mt-8 font-serif container mx-auto">
+    <h1 class="text-6xl text-gray-400 tracking-wider">
+      What Service you will get from me!
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 font-serif">
+      <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+
+
+       <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+
+       <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---->
+
+
+
+  <!---->
+
+  <div class="w-2xl mt-8 font-serif container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 w-full h-full">
+      <h1 class="text-4xl text-gray-400 border-t tracking-wider">
+      What Service you will get from me!
+    </h1>
+    <div class="tabs md:mt-0 mt-4">
+      <a class="tab tab-bordered  tab-lg md:tab-xl">All</a> 
+      <a class="tab tab-bordered tab-active  tab-lg md:tab-xl" >Web Design</a> 
+      <a class="tab tab-bordered  tab-lg md:tab-xl">Logo</a>
+      <a class="tab tab-bordered  tab-lg md:tab-xl">Android</a>
+      <a class="tab tab-bordered  tab-lg md:tab-xl">Ui/Ux</a>
+
+    </div>
+    </div>
+    <div class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 font-serif">
+      <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+
+
+       <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+<!---->
+       <div class="w-full min-h-96 shadow  bg-base-200 p-4">
+        <div class="flex justify-center -mt-8">
+          <img
+            src="./assets/images/ui_ux.jpg"
+            alt=""
+            class="w-32 h-32 rounded-full"
+          />
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h3 class="text-2xl text-primary mt-8">UI/Ux Design</h3>
+          <h3 class="text-2xl mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            consequuntur et illum, laudantium possimus aperiam quaerat omnis
+            quia aut commodi accusantium quibusdam accusamus qui molestiae
+            sequi, eveniet, nulla velit sint.
+          </h3>
+        </div>
+      </div>
+
+      <!---->
+    </div>
+  </div>
+
+
+  <!---->
+  <div
+    class="grid grid-cols-1 gap-8 w-2xl mt-8 font-serif container mx-auto md:grid-cols-2"
+  >
+    <div
+      class="w-full p-2 border-t border-indigo-400 h-96 text-4xl md:text-5xl tracking-wide leading-9"
+    >
+      Desiging With Passion While Exploring The World
+
+      <h6 class="text-xl tracking-9 mt-10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod
+        labore, sit id saepe beatae, incidunt porro enim dicta deleniti unde
+        eum? Aspernatur unde odio architecto nemo autem ipsam suscipit?
+      </h6>
+      <h6 class="text-xl tracking-9 mt-10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod
+        labore, sit id saepe beatae, incidunt porro enim dicta deleniti unde
+        eum?
+      </h6>
+    </div>
+    <div class="w-full p-2 border-t border-indigo-400 h-96">
+      <h1 class="text-4xl md:text-5xl text-success tracking-wider capitalize">
+        Any Type of Query and Discussion
+      </h1>
+      <h2 class="mt-8 text-warning text-2xl text-bold">
+        Let talk with me :
+        <span class="text-4xl text-sky-600 underline ml-2 cursor-pointer">
+          buddha@gmail.com
+        </span>
+      </h2>
+      <h2 class="mt-8 text-warning text-2xl text-bold">
+        Mobile :
+        <span class="text-4xl text-sky-600 underline ml-2 cursor-pointer">
+          123091819
+        </span>
+      </h2>
+    </div>
+    <div class="w-full bg-slate-600 h-96">
+      <div class="flex p-2 space-x-2 animate-pulse">
+        <div class="w-48 h-48 bg-gray-200 rounded-full"></div>
+        <div class="flex-1 flex-col space-y-4">
+            <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+            <div class="grid grid-cols-3 w-full gap-2 mt-4">
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+
+            </div>
+            <div class="grid grid-cols-2 w-full gap-2 mt-4">
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+
+            </div>
+             <div class="grid grid-cols-3 w-full gap-2 mt-4">
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+              <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+
+            </div>
+            <div class=" w-full h-4 bg-gray-200 rounded-full"></div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
